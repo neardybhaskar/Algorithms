@@ -33,9 +33,11 @@ interface InterfaceC extends InterfaceA {
         System.out.println("In InterfaceC");
     }
 
+
+
 }
 
-class CallingClass implements InterfaceC {
+class CallingClass implements InterfaceC,InterfaceB {
 
     @Override
     public void play() {
@@ -44,7 +46,7 @@ class CallingClass implements InterfaceC {
 
     public static void main(String[] args) {
 
-        CallingClass callingClass = new CallingClass();
+        InterfaceC callingClass = new CallingClass();
         callingClass.play();
 
     }
