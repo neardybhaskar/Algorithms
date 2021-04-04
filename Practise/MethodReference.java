@@ -6,14 +6,14 @@ package Practise;
  */
 
 interface Test2 {
-    public int test2(int a, int b, int c, long d);
+    public int test2(int a, int b, int c);
 }
 
 public class MethodReference {
 
-    public int test(int i, int i1, int i2, long l) {
-        System.out.println(i+" "+i1+" "+i2+" "+l);
-        return ((int)(i1+l));
+    public int test(int i, int i1, int i2) {
+        System.out.println(i+" "+i1+" "+i2+" ");
+        return ((int)(i1));
     }
 }
 
@@ -22,7 +22,7 @@ class Caller {
     public static void main(String[] args) {
         MethodReference methodReference = new MethodReference();
         Test2 o = methodReference::test;
-        o.test2(1,1,1,1L);
+        o.test2(1,1,1);
     }
 
 }
