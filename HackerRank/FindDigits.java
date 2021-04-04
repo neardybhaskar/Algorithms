@@ -1,11 +1,22 @@
 package HackerRank;
 
 import java.util.Collections;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @author Bhaskar on 28-01-2021
  */
 public class FindDigits {
+
+    private int a;
+
+    private int b;
+
+    public FindDigits(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
 
     public static void main(String[] args) {
 
@@ -23,6 +34,16 @@ public class FindDigits {
             }
         }
         System.out.println(count);
+
+        Set<FindDigits> test = new TreeSet<>();
+        FindDigits findDigits = new FindDigits(1,1);
+        FindDigits findDigits1 = new FindDigits(2,3);
+        FindDigits findDigits2 = new FindDigits(3,4);
+
+        test.add(findDigits);
+        test.add(findDigits1);
+        test.add(findDigits2);
+        System.out.println(test);
     }
 
 }

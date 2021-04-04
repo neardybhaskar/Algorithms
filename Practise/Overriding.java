@@ -1,9 +1,18 @@
 package Practise;
 
+import java.util.Set;
+import java.util.TreeSet;
+
 /**
  * @author Bhaskar on 04-03-2021
  */
 public class Overriding implements Cloneable {
+
+    private int test = 1;
+
+    public int getTest() {
+        return test;
+    }
 
     @Override
     public Overriding clone() {
@@ -38,6 +47,8 @@ public class Overriding implements Cloneable {
 
 class Test1 extends Overriding {
 
+    int test = 0;
+
     public void test2() {
         System.out.println("Inside test2");
     }
@@ -45,6 +56,11 @@ class Test1 extends Overriding {
     @Override
     public void test1() {
         System.out.println("Inside test2");
+    }
+
+    public static void testStatic() {
+        Overriding overriding = new Overriding();
+        overriding.getTest();
     }
 
 }
@@ -60,6 +76,8 @@ class MainClass {
         Overriding o3 = new Test1();
         o3.clone();
         o3.test1();
+
+        Set<String> test = new TreeSet<>((a,b) -> {return  a.compareTo(b);});
     }
 
 }
