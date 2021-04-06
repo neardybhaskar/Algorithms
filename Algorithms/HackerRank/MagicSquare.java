@@ -1,7 +1,12 @@
 package HackerRank;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import sun.management.resources.agent;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author Bhaskar on 21-01-2021
@@ -51,6 +56,7 @@ public class MagicSquare {
         int[] b = {1,2,3,4,5,6,7,8,9};
         int[] c = {1,2,3,4,5,6,6,8,9};
         change(s);
+         Arrays.asList(s).stream().map(a -> a[0]).forEach(System.out::println);
     }
 
 }
