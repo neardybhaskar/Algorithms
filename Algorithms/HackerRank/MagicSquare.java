@@ -55,8 +55,10 @@ public class MagicSquare {
 
         int[] b = {1,2,3,4,5,6,7,8,9};
         int[] c = {1,2,3,4,5,6,6,8,9};
+        String[] test = {"a", "b", "c"};
         change(s);
          Arrays.asList(s).stream().map(a -> a[0]).forEach(System.out::println);
+         Arrays.asList(test).stream().collect(() -> new StringBuilder(),(a1,b1) -> a1.append(b1),(a2,b2) -> a2.append(b2));
     }
 
 }
