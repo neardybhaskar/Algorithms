@@ -9,6 +9,15 @@ import java.util.stream.Collectors;
  * @date 4/9/2021 6:26 PM
  */
 public class Streams1 {
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(new int[1]);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 
     public static void main(String[] args) {
 
