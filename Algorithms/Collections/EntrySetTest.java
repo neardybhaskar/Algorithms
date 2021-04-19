@@ -19,6 +19,12 @@ public class EntrySetTest implements Map {
 
         Set<Map.Entry<String,String>> set = hashMap.entrySet();
 
+
+        String[] a = new String[]{"a", "b"};
+        List<String> arrayList = Arrays.asList(a);
+
+        System.out.println(1 << 13);
+
     }
 
     @Override
