@@ -16,15 +16,16 @@ public class MatrixSum {
             int rowSum = 0;
             for(int j=0;j<matrix[0].length;j++) {
                 rowSum+=matrix[i][j];
+                System.out.println(rowSum);
             }
 
             rowSumArray[i] = rowSum;
-            System.out.println(columnSumArray);
         }
         for(int i=0;i<matrix[0].length;i++) {
             int colSum = 0;
             for (int j = 0; j < matrix.length; j++) {
                 colSum += matrix[j][i];
+                System.out.println(colSum);
             }
             columnSumArray[i] = colSum;
         }
