@@ -45,4 +45,14 @@ public class StudentNestedTest {
     public void setDepartment(String department) {
         this.department = department;
     }
+
+    @Override
+    public String toString() {
+        return "StudentNestedTest{" +
+                "id=" + id +
+                ", rollNo=" + rollNo +
+                ", name='" + name + '\'' +
+                ", department='" + department + '\'' +
+                '}';
+    }
 }

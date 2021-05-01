@@ -29,13 +29,38 @@ public class BufferStudent {
         }
     }
 
+    //Will delete elements from end
+    public StudentNestedTest delete() {
+        if(next >= 0) {
+            StudentNestedTest studentNestedTest = students[--next];
+            students[next] = null;
+            return studentNestedTest;
+        }
+        return null;
+    }
+
+    //Will delete elements from beginning
+    public void deleteFirst() {
+        for(int i = 0; i<students.length - 1; i++) {
+            if(students[i] != null) {
+                students[i] = students[i + 1];
+            }
+            if(i == (students.length - 2)) {
+                students[i + 1] = null;
+            }
+        }
+        next--;
+    }
+
     class BufferIteratorImpl implements BufferIterator {
 
         private int i = 0;
 
         @Override
         public boolean hasNext() {
-            return i < students.length;
+//            return i < students.length;
+            return i < next;
+//            return next >=0;
         }
 
         @Override
@@ -54,25 +79,25 @@ public class BufferStudent {
         studentNestedTest1.setRollNo(1);
 
         StudentNestedTest studentNestedTest2 = new StudentNestedTest();
-        studentNestedTest2.setId(1);;
+        studentNestedTest2.setId(2);;
         studentNestedTest2.setRollNo(1);
         studentNestedTest2.setName("Bhaskar");
         studentNestedTest2.setRollNo(1);
 
         StudentNestedTest studentNestedTest3 = new StudentNestedTest();
-        studentNestedTest3.setId(1);;
+        studentNestedTest3.setId(3);;
         studentNestedTest3.setName("Bhaskar");
         studentNestedTest3.setRollNo(1);
         studentNestedTest3.setRollNo(1);
 
         StudentNestedTest studentNestedTest4 = new StudentNestedTest();
-        studentNestedTest4.setId(1);;
+        studentNestedTest4.setId(4);;
         studentNestedTest4.setRollNo(1);
         studentNestedTest4.setName("Bhaskar");
         studentNestedTest4.setRollNo(1);
 
         StudentNestedTest studentNestedTest5 = new StudentNestedTest();
-        studentNestedTest5.setId(1);;
+        studentNestedTest5.setId(5);;
         studentNestedTest5.setRollNo(1);
         studentNestedTest5.setName("Bhaskar");
         studentNestedTest5.setRollNo(1);
@@ -85,9 +110,16 @@ public class BufferStudent {
 
 
         BufferIterator iterator = bufferStudent.iterator();
+        BufferIterator iterator2 = bufferStudent.iterator();
 
         while (iterator.hasNext()) {
             System.out.println(iterator.next().getId());
+        }
+        bufferStudent.deleteFirst();
+        bufferStudent.deleteFirst();
+        bufferStudent.deleteFirst();
+        while (iterator2.hasNext()) {
+            System.out.println(iterator2.next().getId());
         }
 
     }
