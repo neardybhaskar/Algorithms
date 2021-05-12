@@ -4,6 +4,7 @@ package Interface;
  * @author Bhaskar on 30-01-2021
  */
 interface InterfaceBegin {
+    int a = 10;
     default void play() {
         System.out.println("In InterfaceBegin");
     }
@@ -31,6 +32,8 @@ interface InterfaceC extends InterfaceA {
     default void play() {
         InterfaceA.super.play();
         System.out.println("In InterfaceC");
+        int a = 10;
+        a++;
     }
 
 

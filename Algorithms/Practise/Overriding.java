@@ -6,7 +6,7 @@ import java.util.TreeSet;
 /**
  * @author Bhaskar on 04-03-2021
  */
-public class Overriding implements Cloneable {
+public abstract class Overriding implements Cloneable {
 
     private int test = 1;
 
@@ -43,6 +43,8 @@ public class Overriding implements Cloneable {
         System.out.println("Static method");
     }
 
+    public abstract void test();
+
 }
 
 class Test1 extends Overriding {
@@ -58,9 +60,14 @@ class Test1 extends Overriding {
         System.out.println("Inside test2");
     }
 
+    @Override
+    public void test() {
+        System.out.println("inside test method");
+    }
+
     public static void testStatic() {
-        Overriding overriding = new Overriding();
-        overriding.getTest();
+        /*Overriding overriding = new Overriding();
+        overriding.getTest();*/
     }
 
 }
@@ -70,12 +77,12 @@ class MainClass {
     public static void main(String[] args) {
         Test1 test1 = new Test1();
         test1.test1();
-        Overriding o1 = new Overriding("Bhaskar");
+        /*Overriding o1 = new Overriding("Bhaskar");
         Overriding o2 = new Overriding("Bhaskar");
         System.out.println(o1.getS() == o2.getS());
         Overriding o3 = new Test1();
         o3.clone();
-        o3.test1();
+        o3.test1();*/
 
         Set<String> test = new TreeSet<>((a,b) -> {return  a.compareTo(b);});
     }
