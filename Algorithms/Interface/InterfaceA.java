@@ -36,15 +36,29 @@ interface InterfaceC extends InterfaceA {
         a++;
     }
 
+    void play1(String a);
+
+    void play1(String a, String b);
+
 
 
 }
 
-class CallingClass implements InterfaceC,InterfaceB {
+class CallingClass implements InterfaceC {
 
     @Override
     public void play() {
         InterfaceC.super.play();
+    }
+
+    @Override
+    public void play1(String a) {
+
+    }
+
+    @Override
+    public void play1(String a, String b) {
+
     }
 
     public static void main(String[] args) {
