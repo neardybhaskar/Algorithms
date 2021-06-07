@@ -11,7 +11,6 @@ public class Test4 {
         int i = 0;
         while(i < 3) {
             i++;
-            main(null);
         }
         System.out.println(i);
 

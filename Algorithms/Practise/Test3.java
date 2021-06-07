@@ -16,10 +16,11 @@ public class Test3 {
 
     public static void fizzBuzz(char[] n) {
         StringBuilder stringBuilder = new StringBuilder();
-        /*for (int i=0; i<n.length; i++) {
+        for (int i=0; i<n.length; i++) {
             stringBuilder.append(n[i]);
-        }*/
-        try {
+        }
+        System.out.println(stringBuilder);
+        /*try {
             System.out.println("A");
 
         } catch (Exception e) {
@@ -28,7 +29,7 @@ public class Test3 {
         finally {
             System.out.println("c");
         }
-        System.out.println("D");
+        System.out.println("D");*/
     }
 
 }
