@@ -92,12 +92,15 @@ public class EntrySetTest implements Map {
 
     @Override
     public boolean equals(Object o) {
-        return false;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        EntrySetTest that = (EntrySetTest) o;
+        return Objects.equals(entrySet, that.entrySet);
     }
 
     @Override
     public int hashCode() {
-        return 0;
+        return Objects.hash(entrySet);
     }
 
     final class EntrySet extends AbstractSet<Entry<String,String>> {

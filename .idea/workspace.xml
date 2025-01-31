@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd734e55-d394-4bc5-a9b0-9d1b59f56bd7" name="Default Changelist" comment="" />
+    <list default="true" id="fd734e55-d394-4bc5-a9b0-9d1b59f56bd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/CharCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Collections/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Collections/FunInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MonolithicStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/Collections/NielsenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/DataStructure/LinkedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/DataStructure/LinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/Test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewAlgorithms/Basics/Test/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Collections/EntrySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Collections/EntrySetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/HackerRank/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/HackerRank/MagicSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,31 +28,59 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1mNn3q6mFPnAqDrTvnR65cNOoNO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-  </component>
-  <component name="RunManager" selected="Application.LibraryFine">
-    <configuration name="AppendAndDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.AppendAndDelete" />
-      <module name="Intellij_Workspace" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LinkedMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MonolithicStack.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Codebase/thoughtworks/developer-joyofenergy-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.StreamTest">
+    <configuration name="CharCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharCount" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.CollectionTest" />
+      <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -42,19 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CapitalAfterUnderscore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CapitalAfterUnderscore" />
-      <module name="Intellij_Workspace" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.FindDigits" />
-      <module name="Intellij_Workspace" />
+    <configuration name="FunInterfaceImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.FunInterfaceImplementation" />
+      <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,42 +101,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryFine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.LibraryFine" />
-      <module name="Intellij_Workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.SquareRoot" />
-      <module name="Intellij_Workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamTest" />
+      <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.StreamTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CharCount" />
+      <item itemvalue="Application.FunInterfaceImplementation" />
+      <item itemvalue="Application.CollectionTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LibraryFine" />
-        <item itemvalue="Application.FindDigits" />
-        <item itemvalue="Application.CapitalAfterUnderscore" />
-        <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.AppendAndDelete" />
+        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="Application.CollectionTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FunInterfaceImplementation" />
+        <item itemvalue="Application.CharCount" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.38" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.38" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,89 +189,38 @@
       <workItem from="1611919217278" duration="18000" />
       <workItem from="1611925199613" duration="8870000" />
       <workItem from="1612003969617" duration="195000" />
+      <workItem from="1716400174069" duration="8316000" />
+      <workItem from="1716572587488" duration="87000" />
+      <workItem from="1716572905441" duration="1525000" />
+      <workItem from="1719248999387" duration="32000" />
+      <workItem from="1720806105393" duration="18000" />
+      <workItem from="1720806888142" duration="84000" />
+      <workItem from="1720806999214" duration="1801000" />
+      <workItem from="1720971481438" duration="2498000" />
+      <workItem from="1720978667418" duration="5945000" />
+      <workItem from="1721038806468" duration="346000" />
+      <workItem from="1721242943362" duration="1050000" />
+      <workItem from="1721319832235" duration="981000" />
+      <workItem from="1721329504286" duration="1757000" />
+      <workItem from="1722178907611" duration="7552000" />
+      <workItem from="1723276730601" duration="25000" />
+      <workItem from="1723571755022" duration="27000" />
+      <workItem from="1724830910593" duration="10000" />
+      <workItem from="1724830944353" duration="630000" />
+      <workItem from="1725033879988" duration="11000" />
+      <workItem from="1725033941524" duration="2053000" />
+      <workItem from="1725551387908" duration="3728000" />
+      <workItem from="1725631604786" duration="3416000" />
+      <workItem from="1725965756577" duration="4033000" />
+      <workItem from="1726056911788" duration="796000" />
+      <workItem from="1726081008517" duration="2182000" />
+      <workItem from="1726166320704" duration="1818000" />
+      <workItem from="1727166342014" duration="4143000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="449" y="0" key="#Auto_Import" timestamp="1609597183816">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="449" y="0" key="#Auto_Import/0.0.1366.728@0.0.1366.728" timestamp="1609597183816" />
-    <state x="450" y="230" key="#Updates" timestamp="1609350218813">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="450" y="230" key="#Updates/0.0.1366.728@0.0.1366.728" timestamp="1609350218813" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1611672478697">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1611672478697" />
-    <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1609596946067">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1609596946067" />
-    <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1609771052272">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1609771052272" />
-    <state width="440" height="438" key="DebuggerActiveHint" timestamp="1611864208621">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="440" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1611864208621" />
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom" timestamp="1611989859839">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611989859839" />
-    <state width="1323" height="164" key="GridCell.Tab.0.center" timestamp="1611989859839">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611989859839" />
-    <state width="1323" height="164" key="GridCell.Tab.0.left" timestamp="1611989859839">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611989859839" />
-    <state width="1323" height="164" key="GridCell.Tab.0.right" timestamp="1611989859839">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611989859839" />
-    <state width="1323" height="204" key="GridCell.Tab.1.bottom" timestamp="1611989859831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611989859831" />
-    <state width="1323" height="204" key="GridCell.Tab.1.center" timestamp="1611989859831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611989859831" />
-    <state width="1323" height="204" key="GridCell.Tab.1.left" timestamp="1611989859831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611989859831" />
-    <state width="1323" height="204" key="GridCell.Tab.1.right" timestamp="1611989859831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611989859831" />
-    <state x="104" y="9" key="SettingsEditor" timestamp="1609575177112">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="104" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609575177112" />
-    <state x="404" y="105" width="570" height="524" key="StructurePopup" timestamp="1609770728789">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="404" y="105" width="570" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1609770728789" />
-    <state x="238" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609771043185">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="238" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1609771043185" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1611926466864">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1611926466864" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611945834880">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611945834880" />
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,11 +295,76 @@
           <line>17</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MapExample.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MapExample.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MapExample.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MapExample.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/DataStructure/LinkedMain.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/DataStructure/LinkedNode.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Collections/MonolithicStack.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/Collections/CollectionTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/CharCount.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/CharCount.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Test/Main.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Test/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewAlgorithms/Basics/Test/StreamTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo typeName="java.lang.Integer" fieldName="value" />
+        <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
   </component>

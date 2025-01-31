@@ -1,3 +1,4 @@
+/*
 package HackerRank;
 
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
@@ -8,9 +9,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+*/
 /**
  * @author Bhaskar on 21-01-2021
- */
+ *//*
+
 public class MagicSquare {
 
     public static int change(int[][] a) {
@@ -39,7 +42,8 @@ public class MagicSquare {
 
     public static void main(String[] args) {
         int s[][] = {{4, 9, 2}, {3, 5, 7}, {8, 1, 5}};
-        /*int[] a = new int[9];
+        */
+/*int[] a = new int[9];
         int[] b = {1,2,3,4,5,6,7,8,9};
         int k = 0;
 
@@ -51,7 +55,8 @@ public class MagicSquare {
         }
         Arrays.sort(a);
         Arrays.sort(b);
-        Arrays.equals(a,b);*/
+        Arrays.equals(a,b);*//*
+
 
         int[] b = {1,2,3,4,5,6,7,8,9};
         int[] c = {1,2,3,4,5,6,6,8,9};
@@ -62,3 +67,4 @@ public class MagicSquare {
     }
 
 }
+*/

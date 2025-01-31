@@ -1,3 +1,6 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.Instant;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -25,11 +28,11 @@ public class Test {
 
         Map<Character, Integer> m = test.mergeArrays(s);
         for (Map.Entry<Character, Integer> map: m.entrySet()) {
-            System.out.print(map.getKey());
-            System.out.print(map.getValue());
+            //System.out.print(map.getKey());
+            //System.out.print(map.getValue());
         }
         Arrays.sort(s.toCharArray());
-        System.out.println(String.valueOf(s));
+        //System.out.println(String.valueOf(s));
 
         List<String> findRankArr = new ArrayList<>();
         findRankArr.add("abc");
@@ -40,5 +43,13 @@ public class Test {
         findRankArr.add("abc");
         List<String> test1 = findRankArr.stream().map(element -> element.toUpperCase())
                 .collect(Collectors.toList());
+
+        Random readingRandomiser = new Random();
+        Instant now = Instant.now();
+        for (int i = 0; i < 20; i++) {
+            double positiveRandomValue = Math.abs(readingRandomiser.nextGaussian());
+            BigDecimal randomReading = BigDecimal.valueOf(positiveRandomValue).setScale(4, RoundingMode.CEILING);
+            System.out.println(now.minusSeconds(i * 10)+" "+randomReading);
+        }
     }
 }
