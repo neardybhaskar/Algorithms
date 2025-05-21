@@ -7,7 +7,9 @@ public class StreamTest2 {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
         //map.getOrDefault()
-        String s = "Bhaskar is a java programmer";
+        String s = "Bhaskar is a java programmer java";
+        System.out.println(Arrays.stream(s.split(" ")).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+                .entrySet().stream().max(Map.Entry.comparingByValue()).stream().findFirst());
         Set<Character> set = new HashSet<>();
         System.out.println(s.chars().mapToObj(i -> (char)i).filter(i -> !set.add(i)).findFirst().get());
         Set<Character> c = new HashSet<>();

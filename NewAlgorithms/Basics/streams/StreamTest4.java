@@ -18,7 +18,7 @@ public class StreamTest4 {
         //mapFruit.entrySet().stream().collect()
         Map<String , Integer> map = mapFruit.entrySet().stream().sorted(Map.Entry.comparingByValue())
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new));
-
+        System.out.println(map);
 
     }
 

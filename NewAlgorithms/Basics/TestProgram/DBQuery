@@ -1,0 +1,15 @@
+/**
+*TCS
+**/
+select max(salary) from employee while salary not in (select max(salary) from employee )
+
+employee eid name
+pf eid pfAmount
+
+select e.name, p.pfAmount from employee e inner join pf p on e.eid == p.eid
+
+user  ->   api gateway -> home page
+                       -> authetication service -> order service -> payment service -> notification service
+                                                -> product service
+                                                -> cart service
+                       -> registration service

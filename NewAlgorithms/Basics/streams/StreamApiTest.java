@@ -37,6 +37,8 @@ public class StreamApiTest {
                 .stream().max(Map.Entry.comparingByValue());
         System.out.println(Stream.of(strings).collect(groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().max(Map.Entry.comparingByValue()));
         Map<String, List<Students>> listMap = array.stream().collect(groupingBy(Students::getGender));
+        Arrays.stream(s.split(" ")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .entrySet().stream().max(Map.Entry.comparingByValue());
     }
 
 }

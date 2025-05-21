@@ -10,6 +10,7 @@ public class StreamTest1 {
     public static void main(String[] args) {
 
         String[] str = {"Java, python", "Java, python, Java", "Welcome, to ,Java"};
+        Arrays.stream(str).flatMap(e -> Arrays.stream(e.split(","))).filter(e -> e.equals("java")).count();
 
         System.out.println(Arrays.stream(str).flatMap(e -> Arrays.stream(e.split(","))).filter(e -> e.contains("Java")).count());
 
@@ -34,7 +35,7 @@ public class StreamTest1 {
         //"John Doe" -> {"J","h","n","D","e"}
         // "Freddy Kruger" -> {"F","g","K","u","y"}
         String s = "John Doe";
-        Map<Character, Integer>  map = new HashMap<>();
+        Map<Character, Integer>  map = new LinkedHashMap<>();
         char[] c = new char[s.length()];
         int flag = 0;
         for(int i=0; i<s.length();i++) {

@@ -1,26 +1,28 @@
-class A
+package Netcracker;
+
+class Aa
 {
 
 }
 
-class B extends A
+class Bb extends Aa
 {
 
 }
 
-class C extends B
+class Cc extends Bb
 {
 
 }
 
-public class TestMainClass
+public class TestMainClass1
 {
-    static void overloadedMethod(A a)
+    static void overloadedMethod(Aa a)
     {
         System.out.println("ONE");
     }
 
-    static void overloadedMethod(B b)
+    static void overloadedMethod(Bb b)
     {
         System.out.println("TWO");
     }
@@ -32,7 +34,7 @@ public class TestMainClass
 
     public static void main(String[] args)
     {
-        C c = new C();
+        Cc c = new Cc();
 
         overloadedMethod(c);
     }
